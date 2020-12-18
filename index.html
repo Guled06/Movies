@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="movies.css">
+    <title>Favorite Movies</title>
+
+    <style type="text/css">
+      button,
+      div,
+      form,
+      input {
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Search For Your Favorite Movies!!!</h1>
+      <div id="buttons-view"></div>
+
+      <form id="movie-form">
+        <label for="movie-input">Search A Movie!</label>
+        <input type="text" id="movie-input" /><br />
+        <input id="add-movie" type="submit" value="Add A Movie & Click!" />
+      </form>
+    </div>
+    <div id="movies-view"></div>
+    
+      <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"
+      ></script>
+
+      <script src="script.js"></script>
+  </body>
+</html>
