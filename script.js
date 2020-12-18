@@ -1,10 +1,10 @@
 
         // Initial array of movies
         var movies = [
-          "The Lion King",
+          "Toy Story",
           "Home Alone",
           "Avengers Endgame",
-          "Get Out",
+          "Message In A Bottle",
         ];
         // displayMovieInfo function re-renders the HTML to display the appropriate content
         function displayMovieInfo() {
@@ -20,6 +20,31 @@
             // Creates a div to hold the movie
             var movieHold = $("<div>");
             // Retrieves the Rating Data
+
+            var title = response.Title
+
+            var titleP = $("<p>").text("Title: " + title);
+
+            movieHold.append(titleP);
+
+            var actor = response.Actors
+
+            var actorP = $("<p>").text("Actors: " + actor);
+
+            movieHold.append(actorP);
+
+            var director = response.Director
+
+            var directorP = $("<p>").text("Director: " + director);
+
+            movieHold.append(directorP);
+
+            var country = response.Country
+
+            var countryP = $("<p>").text("Country: " + country);
+
+            movieHold.append(countryP);
+          
               var rating = response.Rated
             // Creates an element to have the rating displayed
             var ratingP = $("<p>").text("Rating: " + rating);

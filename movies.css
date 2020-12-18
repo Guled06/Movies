@@ -1,25 +1,27 @@
 
 
 body {
-  background-color:palegoldenrod;
+  
+  background-color: rgb(20, 17, 19);
 }
 
 .container {
 
-background-color: rgb(190, 68, 88);
-color: rgb(36, 37, 36);
+  background-color: rgb(52, 1, 65);
+  
+  color: rgb(233, 165, 138);
 
 }
 
 label {
   font-size: x-large;
-  color: rgb(48, 236, 11);
+  color: rgb(182, 212, 8);
 }
 
 input {
   font-size: x-large;
-  color: rgb(15, 18, 19);
-  background-color: rgb(10, 148, 153);
+  color: rgb(10, 25, 165);
+  background-color: rgb(249, 246, 252);
 }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
@@ -32,4 +34,10 @@ input {
     margin: 0;
     padding: 14px;
   }
+}
+
+p {
+  color: palegoldenrod;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
 }
