@@ -90,8 +90,8 @@
             // Added the button to the buttons-view div
             $("#buttons-view").append(a);
           }
+
         }
-        // This function handles events where the add movie button is clicked
         $("#add-movie").on("click", function (event) {
           event.preventDefault();
           // This line of code will grab the input from the textbox
@@ -105,5 +105,20 @@
         $(document).on("click", ".movie", displayMovieInfo);
         // Calling the renderButtons function to display the initial buttons
         renderButtons();
-
-
+        
+    
+        $(".Play-Music").on("click", function() {
+          audioElement.play();
+          var music = $("<button>");
+          var musicP = $("button").addClass("Play-Music");
+          $(".container").append(music);
+          
+          // var audioElement = $("audio");
+          // audioElement.attr("src", "assets/Evil_Laugh_Male_6-Himan-1359990674.mp3");
+      
+        });
+      
+      
+        // This function handles events where the add movie button is clicked
+        
+        
