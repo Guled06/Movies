@@ -11,16 +11,32 @@
       form,
       input {
         margin: 10px;
+        text-align: center;
+      }
+
+      body {
+        background-image: url("images/movies.jpg")
+      }
+
+      .container{
+        background: transparent;
+      }
+
+      h1 {
+        color: red;
+      }
+      #add-movie {
+        color: red;
       }
     </style>
   </head>
   <body>
     <div class="container">
       <h1>Quick Movie Facts!!!</h1>
-      <div id="buttons-view"></div>
+      <div id="buttons-view" style="background-color: black;"></div>
 
       <form id="movie-form">
-        <label for="movie-input">Search For A Movie!</label>
+        <label for="movie-input" style="color: black;">Search For A Movie!</label>
         <input type="text" id="movie-input" /><br />
         <input id="add-movie" type="submit" value="Add A Movie & Click!" />
       </form>

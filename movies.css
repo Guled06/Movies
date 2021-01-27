@@ -1,4 +1,4 @@
-
+/* 
 
 body {
   
@@ -11,11 +11,11 @@ body {
   
   color: rgb(233, 165, 138);
 
-}
+} */
 
 label {
   font-size: x-large;
-  color: rgb(182, 212, 8);
+  color: rgb(212, 66, 8);
 }
 
 input {
@@ -37,7 +37,8 @@ input {
 }
 
 p {
-  color: palegoldenrod;
+  color: white;
+  background-color: rgb(114, 6, 6);
   font-size: x-large;
   font-family: 'Times New Roman', Times, serif;
 }

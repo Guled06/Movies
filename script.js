@@ -117,8 +117,5 @@
           // audioElement.attr("src", "assets/Evil_Laugh_Male_6-Himan-1359990674.mp3");
       
         });
-      
-      
-        // This function handles events where the add movie button is clicked
         
         
