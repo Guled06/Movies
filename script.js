@@ -3,8 +3,11 @@
         var movies = [
           "Toy Story",
           "Home Alone",
-          "Avengers Endgame",
+          "The Best of Me",
           "Message In A Bottle",
+          "The Big Green",
+          "Titanic",
+          "A Kid In Aladdin's Palace"
         ];
         // displayMovieInfo function re-renders the HTML to display the appropriate content
         function displayMovieInfo() {
