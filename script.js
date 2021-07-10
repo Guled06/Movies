@@ -1,4 +1,11 @@
 
+var PORT = process.env.PORT || 3001;
+app.listen(PORT, function() {
+app.get("/", function(req, res) {
+    res.json(path.join(__dirname, "index.html"));
+  });
+  
+
         // Initial array of movies
         var movies = [
           "Toy Story",
